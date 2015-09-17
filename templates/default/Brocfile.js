@@ -1,4 +1,4 @@
-var Site = require('broccoli-taco');
+var Site = require('tacoli');
 var site = new Site();
 
 module.exports = site.toTree();

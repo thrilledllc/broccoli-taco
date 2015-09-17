@@ -3,7 +3,7 @@
 var path = require('path');
 var resolve = require('resolve');
 
-resolve('broccoli-taco', {
+resolve('tacoli', {
   basedir: process.cwd()
 }, function(err, broccoliTacoPath) {
   var cli;

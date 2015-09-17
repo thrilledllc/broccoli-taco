@@ -1,5 +1,5 @@
 module.exports =  {
   title: 'Home'
-, documentationUrl: 'http://broccoli-taco.com/documentation/'
+, documentationUrl: 'http://tacoli.com/documentation/'
 };
 

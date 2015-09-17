@@ -1,11 +1,11 @@
 {
-  "name": "broccoli-taco",
+  "name": "tacoli",
   "version": "0.0.7",
   "description": "Broccoli based static site generator",
-  "repository": "https://github.com/moudy/broccoli-taco",
+  "repository": "https://github.com/moudy/tacoli",
   "main": "index.js",
   "bin": {
-    "broccoli-taco": "./bin/broccoli-taco"
+    "tacoli": "./bin/tacoli"
   },
   "scripts": {
     "test": "mocha"
