@@ -1,3 +1,7 @@
+### Why?
+
+This is a fork of [broccoli-taco](broccoli-taco.com) with changes that allow more flexibility with the structure of the static files generated.
+
 ### Installing
 
 Install the command line utility globally via NPM. This makes `tacoli new` available everywhere.
@@ -18,15 +22,13 @@ Now you can start adding pages, assets, and data.
 
 ### Building a Site
 
-To build your entire site into a folder, you can run the `build` command with the destination folder as an argument. To compress assets, set the `BROCCOLI_TACO_ENV` variable to `production`.
+To build your entire site into a folder, you can run the `build` command with the destination folder as an argument. To compress assets, set the `TACOLI_ENV` variable to `production`.
 
 ``` sh
 tacoli build dist
 # or
-BROCCOLI_TACO_ENV=production tacoli build dist
+TACOLI_ENV=production tacoli build dist
 ```
-
-See [tacoli.com](http://tacoli.com) for full docs.
 
 ### Contributing
 

@@ -1,8 +1,8 @@
 {
   "name": "tacoli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Broccoli based static site generator",
-  "repository": "https://github.com/moudy/tacoli",
+  "repository": "https://github.com/thrilled/tacoli",
   "main": "index.js",
   "bin": {
     "tacoli": "./bin/tacoli"
