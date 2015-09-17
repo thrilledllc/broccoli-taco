@@ -34,7 +34,7 @@ describe('tacoli build <destination>', function () {
 
     before(function (done) {
       var localPath = path.join(process.cwd(), 'node_modules');
-      exec('BROCCOLI_TACO_ENV=production NODE_PATH='+localPath+' ../../../bin/tacoli build '+distName, done);
+      exec('TACOLI_ENV=production NODE_PATH='+localPath+' ../../../bin/tacoli build '+distName, done);
     });
 
     before(function () {
@@ -129,7 +129,7 @@ describe('tacoli build <destination>', function () {
 
     before(function (done) {
       var localPath = path.join(process.cwd(), 'node_modules');
-      exec('BROCCOLI_TACO_ENV=production NODE_PATH='+localPath+' ../../../bin/tacoli build '+distName, done);
+      exec('TACOLI_ENV=production NODE_PATH='+localPath+' ../../../bin/tacoli build '+distName, done);
     });
 
     before(function () {
@@ -158,7 +158,7 @@ describe('tacoli build <destination>', function () {
 
     before(function (done) {
       var localPath = path.join(process.cwd(), 'node_modules');
-      exec('BROCCOLI_TACO_ENV=production NODE_PATH='+localPath+' ../../../bin/tacoli build '+distName, done);
+      exec('TACOLI_ENV=production NODE_PATH='+localPath+' ../../../bin/tacoli build '+distName, done);
     });
 
     before(function () {
