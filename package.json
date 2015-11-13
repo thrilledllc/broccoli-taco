@@ -1,6 +1,6 @@
 {
   "name": "tacoli",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Broccoli based static site generator",
   "repository": "https://github.com/thrilled/tacoli",
   "main": "index.js",
